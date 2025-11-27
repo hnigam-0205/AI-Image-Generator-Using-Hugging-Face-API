@@ -1,8 +1,6 @@
-# AI-Image-Generator-Using-Hugging-Face-API
-The objective of this project is to build a simple web application that can generate AI images from text prompts using publicly available AI models.
-
-
 # AI Image Generator (Hugging Face + Node.js)
+
+The objective of this project is to build a simple web application that can generate AI images from text prompts using publicly available AI models.
 
 This is a mini **AI Image Generator** web app built for a college project.
 
@@ -17,7 +15,7 @@ You can then **download** each generated image with a single click.
 
 ---
 
-## Features
+## ✨ Features
 
 - Simple, clean UI with light/dark theme toggle  
 - Prompt textarea with random prompt generator (🎲 button)  
@@ -25,34 +23,31 @@ You can then **download** each generated image with a single click.
 - Selectable image count (1–4 images per request)  
 - Selectable aspect ratio (1:1, 16:9, 9:16)  
 - Loading cards with “Generating…” state  
-- Generated images in a responsive gallery grid  
+- Generated images displayed in a responsive gallery grid  
 - **Download button on hover** for each image (saves as `.png`)
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-**Frontend:**
+### Frontend
+- HTML5  
+- CSS3  
+- Vanilla JavaScript
 
-- HTML5
-- CSS3
-- Vanilla JavaScript (no frameworks)
-
-**Backend:**
-
-- Node.js
+### Backend
+- Node.js  
 - Express.js
 
-**AI / External Service:**
-
+### AI Service
 - Hugging Face Inference Router API  
   (`https://router.huggingface.co/hf-inference/models/...`)
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
-##  Folder Structure
+```text
 ai-image-generator-main/
 ├── server.js               # Node.js + Express backend + API
 ├── package.json            # Node dependencies (express)
@@ -64,22 +59,22 @@ ai-image-generator-main/
     └── test.jpg            # Placeholder image (optional)
 
 
-
 ## Important:
 index.html, script.js, style.css, test.jpg must be inside the public/ folder.
 
+```
 
 
 
 
 
-
------ HOW TO RUN THE PROJECT -------
+## HOW TO RUN THE PROJECT 
 
 ## Prerequisites & Setup (Windows)
 
 ### 1. Prerequisites
 
+```text
 Before running the project, make sure you have:
 
 1. **Node.js (with npm)**
@@ -106,9 +101,11 @@ Before running the project, make sure you have:
      git --version
      ```
 
----
+```
 
 ### 2. Get the Project
+
+```text
 
 #### Option A – Clone from GitHub
 
@@ -129,10 +126,12 @@ cd <forked-repo-name>
 ```Inside command prompt or git-bash - go to below path``
 cd C:\Users\<YourUser>\Desktop\ai-image-generator-main
 
-
+```
 
 
 ### 3. Add Your Hugging Face Token
+
+```text
 
 - Open server.js in any code editor (VS Code, Notepad++, etc.).
 
@@ -143,9 +142,11 @@ const HF_TOKEN = "hf_YOUR_REAL_TOKEN_HERE"; // <-- paste your HF token here
   for example like below -
   const HF_TOKEN = "hf_abc123YOURREALTOKENxyz";
 
-
+```
 
   ### 4. Install Dependencies
+
+```text
 
   - From inside the project folder (where server.js is located), run:
     npm install
@@ -154,9 +155,11 @@ const HF_TOKEN = "hf_YOUR_REAL_TOKEN_HERE"; // <-- paste your HF token here
 
     You only need to run npm install once after downloading or cloning the project.
 
-
+```
 
   ### 5. Run the Project
+
+```text
 
   - Open Command Prompt or git-bash.
 
@@ -174,8 +177,8 @@ const HF_TOKEN = "hf_YOUR_REAL_TOKEN_HERE"; // <-- paste your HF token here
     http://localhost:8080/index.html
 
   NOTE - Do NOT double-click index.html and open it as file:///…
-         The app must be opened via http://localhost:8080/index.html so it can talk to the backend server.
-
+         The app must be opened via http://localhost:8080/index.html so it can commu nicate to the backend server.
+```
 
   
 
