@@ -52,16 +52,17 @@ You can then **download** each generated image with a single click.
 
 ## Project Structure
 
-```Folder Structure`
-- ai-image-generator-main/
-  server.js             # Node.js + Express server (backend + API)
-  package.json          # Node dependencies (express)
-  node_modules/         # Installed dependencies (auto-created by npm)
-  public/
-    index.html          # Main UI
-    script.js           # Frontend logic
-    style.css           # Styles
-    test.jpg            # Sample image / placeholder (optional)
+##  Folder Structure
+ai-image-generator-main/
+├── server.js # Node.js + Express backend + API
+├── package.json # Node dependencies (express)
+├── node_modules/ # Installed dependencies (auto-created by npm)
+└── public/
+├── index.html # Main UI
+├── script.js # Frontend logic
+├── style.css # Styles
+└── test.jpg # Placeholder image (optional)
+
 
 ## Important:
 index.html, script.js, style.css, test.jpg must be inside the public/ folder.
