@@ -97,7 +97,7 @@ Before running the project, make sure you have:
 3. **Git** (optional, only if cloning the repo)
    - Download: https://git-scm.com/downloads
    - Verify:
-     ```bash
+     ```Inside command prompt or git-bash - go to below path
      git --version
      ```
 
@@ -123,7 +123,7 @@ cd <forked-repo-name>
 2. Extract the ZIP, for example to:
 3. Open Command Prompt and go into that folder:
    
-```Inside command prompt or git-bash - go to below path``
+```Inside command prompt or git-bash - go to below path
 cd C:\Users\<YourUser>\Desktop\ai-image-generator-main
 
 ```
