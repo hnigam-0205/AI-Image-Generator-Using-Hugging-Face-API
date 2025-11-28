@@ -177,7 +177,7 @@ const HF_TOKEN = "hf_YOUR_REAL_TOKEN_HERE"; // <-- paste your HF token here
     http://localhost:8080/index.html
 
   NOTE - Do NOT double-click index.html and open it as file:///…
-         The app must be opened via http://localhost:8080/index.html so it can commu nicate to the backend server.
+         The app must be opened via http://localhost:8080/index.html so it can communicate to the backend server.
 ```
 
   
